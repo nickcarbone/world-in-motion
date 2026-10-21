@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>The World in Motion</title>
+  <meta name="description" content="A private wall of live public views of airports, ports and railways around the world.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23101418'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23f0b54a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&amp;family=IBM+Plex+Sans:wght@400;500&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-view="wall">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="masthead">
+    <div class="masthead__title">
+      <p class="kicker">Live public views</p>
+      <h1>The World in Motion</h1>
+    </div>
+    <div class="masthead__controls">
+      <div class="segmented" role="group" aria-label="View">
+        <button type="button" id="view-wall" aria-pressed="true">Wall</button>
+        <button type="button" id="view-index" aria-pressed="false">Index</button>
+      </div>
+      <label class="select wall-only">
+        <span>Live video</span>
+        <select id="live-mode">
+          <option value="hero">Hero only</option>
+          <option value="all">Every camera</option>
+          <option value="off">Stills only</option>
+        </select>
+      </label>
+    </div>
+    <div class="masthead__clock" aria-live="off">
+      <span id="utc" class="clock">--:--</span>
+      <span class="clock__label">UTC · <span id="utc-date"></span></span>
+    </div>
+  </header>
+
+  <div class="strip wall-only">
+    <ul id="cities" class="cities" aria-label="Places on the wall, local time"></ul>
+    <p id="summary" class="summary"></p>
+  </div>
+
+  <main id="content">
+    <section id="wall" class="wall wall-only" aria-label="Wall"></section>
+
+    <section class="index index-only" aria-labelledby="index-heading">
+      <div class="index__bar">
+        <h2 id="index-heading" class="index__heading">Index <span id="index-count" class="index__count"></span></h2>
+        <div id="filters" class="chips" role="group" aria-label="Filter sources"></div>
+        <div class="index__opts">
+          <label class="select">
+            <span>Sort</span>
+            <select id="sort">
+              <option value="editorial">Editorial order</option>
+              <option value="daylight">Daylight first</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" id="show-unavailable"> Show unavailable</label>
+        </div>
+      </div>
+      <ul id="index-list" class="cards"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Views belong to their operators and are shown through YouTube’s own player or the publisher’s feed. Finnish ship and rail data © Fintraffic / Digitraffic, licensed CC BY 4.0. Nothing here is a statement about how well any network is running.</p>
+    <p>Rights holders: to have a view removed, <a id="takedown" href="#" rel="noopener" target="_blank">file a removal request</a>. Requests are acted on promptly.</p>
+  </footer>
+
+  <dialog id="detail" aria-label="Source detail"></dialog>
+  <noscript><p class="fatal">This page needs JavaScript to load its live views.</p></noscript>
+</body>
+</html>
