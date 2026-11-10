@@ -1,326 +1,326 @@
 {
- "generated": "2026-11-09T16:24:33Z",
+ "generated": "2026-11-10T14:55:51Z",
  "fail_limit": 3,
  "sources": {
   "air-lhr-fr24": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Flightradar24",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "air-lga-fr24": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Flightradar24",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "air-ace-fr24": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Flightradar24",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "air-sxm-fr24": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Flightradar24",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "air-las-fr24": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Flightradar24",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "air-msy-fr24": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Flightradar24",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "air-jqa-greenland": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Greenland Airports Live: North",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "air-mex-skyline": {
    "state": "unavailable",
    "result": "gone",
    "detail": "oEmbed 404: video removed or private",
-   "checked": "2026-11-09T16:24:33Z",
-   "consecutive_failures": 16,
+   "checked": "2026-11-10T14:55:51Z",
+   "consecutive_failures": 17,
    "last_ok": "2026-10-24T11:04:59Z"
   },
   "air-yul-moore": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-rtm-margriet": {
    "state": "embed_disabled",
    "result": "embed_disabled",
    "detail": "oEmbed 403: owner does not allow embedding",
-   "checked": "2026-11-09T16:24:33Z",
-   "consecutive_failures": 15,
+   "checked": "2026-11-10T14:55:51Z",
+   "consecutive_failures": 16,
    "last_ok": "2026-10-25T11:34:11Z"
   },
   "sea-rtm-amazone": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Port of Rotterdam",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-dub-bay": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Dublin Port",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-dub-liffey": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Dublin Port",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-hel-west-s": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Port of Helsinki",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-hel-west-n": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Port of Helsinki",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-ncl-harbour": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Port of Newcastle",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-kiel-holtenau": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · livespotting",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-brunsbuettel": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · livespotting",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-ham-altona": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · livespotting",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-dlh-canal": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Duluth Harbor Cam",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-sai-chile": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-sin-tanjongpagar": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-syd-harbour": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-sty-ferry": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Hebridean Live Cams",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "sea-usace-l15": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · USACE Rock Island District",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-ams-cs-2": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · ProRail",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-ams-cs-1": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · ProRail",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-york-roc": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Railcam",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-prg-hln": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · SlowTV",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-tmp-railcam": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Railcam Finland",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-tyo-hamamatsucho": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · 共同通信LiveCamera",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-tyo-shinjuku": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · 【LIVE】東京 新宿 鉄道 ライブ Tokyo Shinjuku Live Ch",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-kyo-station": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · JR京都駅ライブカメラ(JR Kyoto Station LiveCam)",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-koriyama-shinkansen": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · 東北新幹線 アルファライブ",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-rev-bc": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Virtual Railfan",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "rail-anc-ak": {
    "state": "ok",
    "result": "ok",
    "detail": "embeddable · Virtual Railfan",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "data-ais-helsinki": {
    "state": "ok",
    "result": "ok",
    "detail": "49 records",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "data-rail-hki": {
    "state": "ok",
    "result": "ok",
    "detail": "8 records",
-   "checked": "2026-11-09T16:24:33Z",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   },
   "data-rail-fi-gps": {
-   "state": "ok",
-   "result": "ok",
-   "detail": "151 records",
-   "checked": "2026-11-09T16:24:33Z",
-   "consecutive_failures": 0,
+   "state": "failing",
+   "result": "error",
+   "detail": "HTTP 404",
+   "checked": "2026-11-10T14:55:51Z",
+   "consecutive_failures": 1,
    "last_ok": "2026-11-09T16:24:33Z"
   },
   "still-oulunsalo-ferry": {
    "state": "ok",
    "result": "ok",
-   "detail": "image 199 KB",
-   "checked": "2026-11-09T16:24:33Z",
+   "detail": "image 239 KB",
+   "checked": "2026-11-10T14:55:51Z",
    "consecutive_failures": 0,
-   "last_ok": "2026-11-09T16:24:33Z"
+   "last_ok": "2026-11-10T14:55:51Z"
   }
  }
 }
